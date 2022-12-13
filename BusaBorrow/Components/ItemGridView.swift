@@ -45,7 +45,7 @@ struct ItemGridView: View {
                         .fontWeight(.semibold)
                         .lineLimit(1)
                         .font(.subheadline)
-                    Text(item.formattedPrice())
+                    Text(item.formattedPrice().appending("/day"))
                         .font(.subheadline)
                         .foregroundColor(.secondary)
                 }

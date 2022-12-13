@@ -30,7 +30,7 @@ struct ItemCellView: View {
                     Text(item.name)
                         .lineLimit(1)
                         .font(.headline)
-                    Text(item.formattedPrice())
+                    Text(item.formattedPrice().appending("/day"))
                         .foregroundColor(.secondary)
                 }
                 

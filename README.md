@@ -5,7 +5,7 @@ Swift app for renting motorcycles.
 # Proposal
 
 ## Must have features
-- [ ] Onboarding intro screen
+- [x] Onboarding intro screen
 - [x] View current inventory of bikes
 - [x] Search for a bike
 - [x] User cart

@@ -33,7 +33,7 @@ struct ItemDetailView: View {
                     Text(item.name)
                         .font(.title)
                         .fontWeight(.bold)
-                    Text(item.formattedPrice())
+                    Text(item.formattedPrice().appending("/day"))
                         .font(.title)
                         .foregroundColor(.secondary)
                     Spacer()

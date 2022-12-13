@@ -34,7 +34,7 @@ struct FeaturedItemView: View {
                         .font(.title)
                         .fontWeight(.bold)
                         .foregroundColor(.white)
-                    Text(item.formattedPrice())
+                    Text(item.formattedPrice().appending("/day"))
                         .font(.title)
                         .foregroundColor(.white.opacity(0.8))
                     Spacer()
