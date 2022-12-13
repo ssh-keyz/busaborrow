@@ -6,10 +6,10 @@ Swift app for renting motorcycles.
 
 ## Must have features
 - [ ] Onboarding intro screen
-- [ ] View current inventory of bikes
-- [ ] Search for a bike
-- [ ] User cart
-- [ ] User checkout with apple pay
+- [x] View current inventory of bikes
+- [x] Search for a bike
+- [x] User cart
+- [x] User checkout with apple pay
 - [ ] User authentication and profile
 ## Nice to have features
 - [ ] Post your bike to be rented
